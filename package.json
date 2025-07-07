@@ -1,0 +1,31 @@
+{
+  "name": "pagina",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --exec node app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NomacAxe/Bahaleon_web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NomacAxe/Bahaleon_web/issues"
+  },
+  "homepage": "https://github.com/NomacAxe/Bahaleon_web#readme",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
